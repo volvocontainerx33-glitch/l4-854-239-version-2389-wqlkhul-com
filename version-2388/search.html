@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索筛选-分类剧集片库-热门电视剧大全-全集高清在线播放</title>
+    <meta name="description" content="搜索分类剧集片库中的热门电视剧、精选剧集、题材标签和播放内容。">
+    <meta name="keywords" content="搜索筛选,分类剧集片库,热门电视剧,电视剧大全,全集播放,精选剧集,热播剧集">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清剧集大全首页">
+            <span class="brand-mark">▶</span>
+            <span class="brand-copy">
+                <strong>高清剧集大全</strong>
+                <small>热门电视剧大全</small>
+            </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="展开导航" data-nav-toggle>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="main-nav" data-main-nav>
+            <a class="nav-link" href="index.html">首页</a>
+                <a class="nav-link" href="categories.html">分类</a>
+                <a class="nav-link" href="rankings.html">排行榜</a>
+                <a class="nav-link is-active" href="search.html">搜索筛选</a>
+        </nav>
+        <form class="header-search" action="search.html" method="get" data-site-search>
+            <label class="sr-only" for="header-search-input">搜索内容</label>
+            <input id="header-search-input" type="search" name="q" placeholder="搜索剧名 / 类型 / 地区" autocomplete="off">
+            <button type="submit" aria-label="搜索">搜索</button>
+        </form>
+    </div>
+</header>
+<main>
+<section class="page-hero compact-hero">
+    <div class="container">
+        <span class="eyebrow">搜索筛选</span>
+        <h1>搜索热门电视剧、精选剧集与题材标签</h1>
+        <p>分类剧集片库整合不同地区与题材的电视剧内容，提供热门剧集与精选剧单。</p>
+    </div>
+</section>
+<section class="filter-section search-page-filter">
+    <div class="container">
+        <form class="filter-panel" id="search-form" data-search-form>
+            <div>
+                <label for="search-q">关键词</label>
+                <input id="search-q" type="search" name="q" placeholder="输入片名、简介、题材或地区" autocomplete="off">
+            </div>
+            <div>
+                <label for="search-region">地区</label>
+                <select id="search-region" name="region">
+                    <option value="">全部地区</option>
+                    <option value="中国大陆">中国大陆</option>
+                    <option value="中国">中国</option>
+                    <option value="美国">美国</option>
+                    <option value="法国">法国</option>
+                    <option value="日本">日本</option>
+                    <option value="韩国">韩国</option>
+                    <option value="英国">英国</option>
+                    <option value="欧美">欧美</option>
+                </select>
+            </div>
+            <div>
+                <label for="search-type">类型</label>
+                <select id="search-type" name="type">
+                    <option value="">全部类型</option>
+                    <option value="电影">电影</option>
+                    <option value="电视剧">电视剧</option>
+                    <option value="剧集">剧集</option>
+                    <option value="综艺">综艺</option>
+                    <option value="动画电影">动画电影</option>
+                </select>
+            </div>
+            <button type="submit">立即搜索</button>
+        </form>
+    </div>
+</section>
+<section class="content-section">
+    <div class="container">
+        <div class="section-heading">
+            <div>
+                <span class="eyebrow">搜索结果</span>
+                <h2 id="search-title">精选内容</h2>
+            </div>
+        </div>
+        <div class="movie-grid" id="search-results"></div>
+        <p class="empty-state" id="search-empty" hidden>没有找到符合条件的影片。</p>
+    </div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div class="footer-brand">
+            <a class="brand brand-footer" href="index.html">
+                <span class="brand-mark">▶</span>
+                <span class="brand-copy">
+                    <strong>高清剧集大全</strong>
+                    <small>热门电视剧大全</small>
+                </span>
+            </a>
+            <p>分类剧集片库整合不同地区与题材的电视剧内容，提供热门剧集与精选剧单。</p>
+        </div>
+        <div>
+            <h3>片库入口</h3>
+            <div class="footer-links">
+                <a href="category-suspense.html">悬疑惊悚</a>
+                <a href="category-romance.html">爱情都市</a>
+                <a href="category-comedy.html">喜剧治愈</a>
+                <a href="category-action.html">动作冒险</a>
+                <a href="category-fantasy.html">科幻奇幻</a>
+                <a href="category-history.html">历史传记</a>
+            </div>
+        </div>
+        <div>
+            <h3>站内导航</h3>
+            <div class="footer-links">
+                <a href="index.html">首页推荐</a>
+                <a href="categories.html">分类总览</a>
+                <a href="rankings.html">热播排行</a>
+                <a href="search.html">搜索筛选</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="assets/app.js"></script>
+<script src="assets/data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

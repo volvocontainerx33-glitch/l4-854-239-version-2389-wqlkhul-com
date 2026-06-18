@@ -1,0 +1,17 @@
+{
+  "parsed_records": 2000,
+  "generated_movies": 1997,
+  "skipped_titles_count": 3,
+  "skipped_titles": [
+    "少女性爱官能症",
+    "旅馆春光",
+    "人兽杂交"
+  ],
+  "movie_pages": 1997,
+  "list_pages": 40,
+  "genre_pages": 270,
+  "region_pages": 48,
+  "type_pages": 49,
+  "video_sources_from_uploaded_js": 20,
+  "image_strategy": "References top-level 1.jpg through 150.jpg; no new JPG/PNG/WebP files generated."
+}
